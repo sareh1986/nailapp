@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Router, hashHistory as history } from 'react-router';
+import { BrowserRouter as Router, Route , Link } from 'react-router-dom';
 import routes from './routes';
 
 ReactDOM.render(
   
-    <routes>
-    <App />
-    </routes>,
+    <Router>
+      <App />
+    </Router>,
   document.getElementById('root')
 );
 

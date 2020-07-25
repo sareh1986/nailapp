@@ -7,7 +7,7 @@ import Items3 from './Items3';
 export default class Artist extends Component{
     render(){
         return(
-            <div>
+            <div className="d-flex flex-wrap">
                 <Items1 />
                 <Items2 />
                 <Items3 />

@@ -10,7 +10,7 @@ export default class Items2 extends Component{
           <strong className="py-2 d-block">{data.specialist[1].name}</strong>
           <p>محدوده:  {data.specialist[1].location}</p>
           <p>شماره تماس: {data.specialist[1].tel}</p>
-          <a href="/moreInfo" className="btn-more d-block">مشاهده نمونه کارهای بیشتر</a>
+          <a href="/moreInfo2" className="btn-more d-block">مشاهده نمونه کارهای بیشتر</a>
       </section>
         )
     }
