@@ -13,11 +13,11 @@ export default class Items1 extends Component{
           <p>محدوده:  {data.specialist[0].location}</p>
           <p>شماره تماس: {data.specialist[0].tel}</p>
           {/* <a href="/moreInfo1" className="btn-more d-block">مشاهده نمونه کارهای بیشتر</a> */}
-          <Link to="/moreInfo1">مشاهده نمونه کارهای بیشتر</Link>
+          <Link to="/moreInfo1" className="btn-more d-block">مشاهده نمونه کارهای بیشتر</Link>
 
-
-         
-             <Route path="/moreInfo1" component={moreInfo1} />
+          <switch>
+            <Route path='/moreInfo1' component={moreInfo1} />
+          </switch> 
        
 
             </section>

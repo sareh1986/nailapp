@@ -2,6 +2,7 @@ import React , {Component} from 'react'
 
 
 
+
 export default class moreInfo2 extends Component{
 
     render(){

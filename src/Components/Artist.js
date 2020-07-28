@@ -11,6 +11,7 @@ export default class Artist extends Component{
                 <Items1 />
                 <Items2 />
                 <Items3 />
+
             </div>
         )
     }
