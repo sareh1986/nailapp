@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Routers from "./routes";
+import Routers from "./router";
 
 import logo from "./logo.svg";
 
@@ -15,6 +15,7 @@ import moreInfo3 from "./Components/moreInfo3";
 function App() {
   return (
     <div className="App">
+     {/* return router */}
       <Routers />
     </div>
   );

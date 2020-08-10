@@ -6,15 +6,12 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route , Link } from 'react-router-dom';
 import Home from './App.js';
 import moreInfo1 from './Components/moreInfo1';
-import moreInfo2 from './Components/moreInfo2';
+import moreInfo2
+ from './Components/moreInfo2';
 import moreInfo3 from './Components/moreInfo3';
 
 ReactDOM.render(
-  <Router>
-    <App />
-
-
-  </Router>,
+    <App />,
   document.getElementById('root')
 );
 

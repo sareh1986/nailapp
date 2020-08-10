@@ -9,14 +9,11 @@ export default class Items2 extends Component{
         return(
             <section className="col-4">
           <img src={img2} className="d-block mw-100" />
-          <strong className="py-2 d-block">{data.specialist[1].name}</strong>
+          <strong className="py-2 d-block text-center">{data.specialist[1].name}</strong>
           <p>محدوده:  {data.specialist[1].location}</p>
           <p>شماره تماس: {data.specialist[1].tel}</p>
-          <Link to="/moreInfo2" className="btn-more d-block">مشاهده نمونه کارهای بیشتر</Link>
+          <Link to="/moreInfo/2" className="btn-more d-block text-center">مشاهده نمونه کارهای بیشتر</Link>
       
-          <switch>
-            <Route exact path='/moreInfo2' component={moreInfo2} />
-          </switch> 
 
       </section>
         )

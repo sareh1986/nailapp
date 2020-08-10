@@ -1,11 +1,23 @@
 
-
 @font-face { font-family: yekan;src: url('./Font/WebYekan.woff') format("woff"), url('./Font/WebYekan.ttf') format("ttf");}
+
 *{
   font-family:'yekan';
   padding: 0;
   margin: 0;
+  direction: rtl;
+  box-sizing: border-box;
+  text-align: justify;
 }  
+p , span , a {line-height:30px;}
+a:hover{text-decoration: none; }
+
+input,button {width: 100%;border: none;padding: 10px;}
+button{background-color: #e4207f;text-align: center;color: #FFF;}
+input:focus {outline: none;background-color:#f5f5f5 }
+button:focus {outline: none;}
+button:hover{background-color:#8e1650;}
+
 
 .App {
   text-align: center;
@@ -23,6 +35,24 @@
   padding: 10px;
 }
 
+.btn-Login{background-color: #e4207f;text-align: center;color: #FFF !important;padding: 8px;}
+.btn-Login:hover{background-color:#8e1650;}
+
+.text-title{
+  color: #e4207f;
+}
+
+.bg-login{
+  background-image: url('Image/bg.jpg');background-size: cover;
+}
+
+.panel-login{
+  background: #98989847;
+  height: 350px;;
+}
+
+.contact-box{border:2px solid #e4207f; color:  #e4207f; padding: 5px;font-weight: bold;text-align: center;border-radius: 10px; }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -31,7 +61,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
