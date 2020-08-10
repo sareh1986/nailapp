@@ -48,7 +48,7 @@ button:hover{background-color:#8e1650;}
 
 .panel-login{
   background: #98989847;
-  height: 350px;;
+  height: auto;;
 }
 
 .contact-box{border:2px solid #e4207f; color:  #e4207f; padding: 5px;font-weight: bold;text-align: center;border-radius: 10px; }
