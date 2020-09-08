@@ -18,18 +18,20 @@ export default () => {
         <LayoutMain>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/Services/Skin" component={Skin} />
+              <Route path="/Services/Hair" exact component={Hair} />
           </Switch>
         </LayoutMain>
 
        
-        <Route exact path="/Services/:path?">
+        {/* <Route exact path="/Services/:path?">
           <LayoutMain>
             <Switch>
-              <Route exact path="/Services/Skin" component={Skin} />
+              <Route path="/Services/Skin" component={Skin} />
               <Route path="/Services/Hair" exact component={Hair} />
             </Switch>
           </LayoutMain>
-        </Route>
+        </Route> */}
 
         <Route path="/moreInfo/:path?" exact>
           <LayoutMain>

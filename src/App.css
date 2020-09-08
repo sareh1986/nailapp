@@ -56,6 +56,16 @@ button:hover{background-color:#8e1650;}
   border-bottom:2px solid  #ff3f68;
 }
 
+.navbar{
+  border-top: 1px solid #fddbe3;
+  border-bottom: 1px solid #fddbe3;
+  font-size: 1.18rem;
+}
+
+.curve-box{
+  border-radius: 100%;
+}
+
 .text-gray{
   color: #929292;
 }
@@ -64,6 +74,19 @@ button:hover{background-color:#8e1650;}
 }
 .text-pink-light{
   color: #f096a5;
+}
+
+.bg-sidebar{
+  background: rgb(255,63,104);
+background: linear-gradient(180deg, rgba(255,63,104,1) 0%, rgba(255,63,104,1) 40%, rgba(253,219,227,1) 100%);
+}
+.text-sidebar{
+  color: #FFF;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.09);
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.1rem;
 }
 
 .zoom{
@@ -95,11 +118,17 @@ transition: all .8s;
   background-image: url('Image/bg.jpg');background-size: cover;
 } */
 
+
+
 .bg-pink{
   background-color:  #ff3f68;
 }
 .bg-pink-light{
  background-color:  #fddbe3;
+}
+
+.bg-light-gray{
+  background-color:#f9f5f7
 }
 
 .box-search{
