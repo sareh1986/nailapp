@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link, Route, Switch } from "react-router-dom";
 import img3 from "../Image/03.jpg";
 import data from "../data.json";
-import moreInfo3 from "./moreInfo3";
+import MoreInfo3 from "./moreInfo3";
 
 export default class Items3 extends Component {
   render() {
@@ -17,6 +17,7 @@ export default class Items3 extends Component {
         <Link to="/moreInfo/3" className="btn-more d-block text-center">
           مشاهده نمونه کارهای بیشتر
         </Link>
+        <MoreInfo3 A="Ali" B="Pouyan"></MoreInfo3>
       </section>
     );
   }

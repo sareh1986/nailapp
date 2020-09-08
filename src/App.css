@@ -12,8 +12,8 @@
 p , span , a {line-height:30px;}
 a:hover{text-decoration: none; }
 
-input,button {width: 100%;border: none;padding: 10px;}
-button{background-color: #e4207f;text-align: center;color: #FFF;}
+input,button,select {width: 100%;border: none;height: 100%; padding: 5px;}
+button{background-color: #ff3f68;text-align: center;color: #FFF;}
 input:focus {outline: none;background-color:#f5f5f5 }
 button:focus {outline: none;}
 button:hover{background-color:#8e1650;}
@@ -24,10 +24,10 @@ button:hover{background-color:#8e1650;}
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 12vmin;
   pointer-events: none;
-  height: 150px;
 }
+
 
 .btn-more{
   background-color:#00bfa5;
@@ -38,26 +38,88 @@ button:hover{background-color:#8e1650;}
 .btn-Login{background-color: #e4207f;text-align: center;color: #FFF !important;padding: 8px;}
 .btn-Login:hover{background-color:#8e1650;}
 
-.text-title{
-  color: #e4207f;
+.services-title{
+  padding: 10px 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #FFF;
+  font-size: 2vw;
+  font-weight: bold;
+  width: 100%;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  text-align: center;
 }
 
-.bg-login{
+.title{
+  border-bottom:2px solid  #ff3f68;
+}
+
+.text-gray{
+  color: #929292;
+}
+.text-pink{
+ color: #ff3f68;
+}
+.text-pink-light{
+  color: #f096a5;
+}
+
+.zoom{
+  transition: transform .7s ease-in-out;
+}
+.zoom:hover{
+  transform: scale(1.05);
+  
+}
+.effect img{
+filter: brightness(75%);
+-webkit-transition: all .8s;
+transition: all .8s;
+}
+
+.effect:hover > img{
+  filter: brightness(50%)
+}
+
+.effect:hover > div.services-title{
+  bottom: 30px;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+/* .bg-login{
   background-image: url('Image/bg.jpg');background-size: cover;
+} */
+
+.bg-pink{
+  background-color:  #ff3f68;
+}
+.bg-pink-light{
+ background-color:  #fddbe3;
 }
 
-.panel-login{
-  background: #98989847;
-  height: auto;;
+.box-search{
+  border: 1px solid #ff3f68;
+  max-width: 600px;
+  height: 40px;
 }
+
+.city-box > select{
+ border:none;
+ border-left: 1px solid #DDD;
+}
+
+.city-box > select:focus{
+  outline:none !important;
+ }
 
 .contact-box{border:2px solid #e4207f; color:  #e4207f; padding: 5px;font-weight: bold;text-align: center;border-radius: 10px; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -74,11 +136,4 @@ button:hover{background-color:#8e1650;}
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

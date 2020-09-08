@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import images from "../Image/s1.jpg";
+import axios from 'axios'
+import Test from "../test.js";
+
 
 export default class moreInfo1 extends Component {
   render() {
@@ -17,11 +20,15 @@ export default class moreInfo1 extends Component {
             تجربه ی بالا آنچه که مطابق با سلیقه و انتظارات شماست را به بهترین
             نحو ارائه می کند.{" "}
           </p>
-          <p>قیمت: <span className="font-weight-bold"> 200,000 تومان</span></p>
+          <p>
+            قیمت: <span className="font-weight-bold"> 200,000 تومان</span>
+          </p>
           <p>محدوده فعالیت: تجریش</p>
           <p>ساعت سرویس‌دهی : 18 تا 10</p>
           <div className="contact-box">تماس با ناخن کار</div>
         </div>
+
+        <Test />
       </div>
     );
   }

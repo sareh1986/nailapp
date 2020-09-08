@@ -2,24 +2,31 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LayoutMain from "../Components/Layout/LayoutMain.js";
 
+import Home2 from "../Components/Home2.js";
 import Home from "../Components/Home.js";
-import Login from "../Components/Login.js"
+import Skin from "../Components/Skin";
+import Hair from "../Components/Hair.js";
 import moreInfo1 from "../Components/moreInfo1";
 import moreInfo2 from "../Components/moreInfo2";
 import moreInfo3 from "../Components/moreInfo3";
-
 
 export default () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Login} />
+        
+        <LayoutMain>
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </LayoutMain>
 
-        <Route exact path="/:path?">
+       
+        <Route exact path="/Services/:path?">
           <LayoutMain>
             <Switch>
-              <Route exact path="/Home" component={Home} />
-              {/* <Route exact path="/Login" component={Login} /> */}
+              <Route exact path="/Services/Skin" component={Skin} />
+              <Route path="/Services/Hair" exact component={Hair} />
             </Switch>
           </LayoutMain>
         </Route>

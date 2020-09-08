@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './CSS/slick-theme.css';
+import './CSS/slick.css';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route , Link } from 'react-router-dom';
 import Home from './App.js';
