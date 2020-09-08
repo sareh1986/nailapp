@@ -9,9 +9,7 @@ export default class Skin extends Component {
     return (
       <div className="w-100 d-flex flex-wrap">
         <div
-          className="col-xl-2 col-lg-2 col-md-3 col-4 bg-sidebar"
-          style={{ height: "100vh" }}
-        >
+          className="col-xl-2 col-lg-2 col-md-3 col-4 bg-sidebar">
           <p className="text-sidebar">پاکسازی</p>
           <p className="text-sidebar">آبرسانی</p>
           <p className="text-sidebar">لایه برداری</p>

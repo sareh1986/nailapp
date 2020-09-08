@@ -27,7 +27,7 @@ export default ({ children }) => {
               </select>
             </div>
             <div className="col-7 h-100 px-0">
-              <input type="text" placeholder="جستجو کنید" />
+              <input type="text" placeholder="خدمات مورد نیاز را جستجو کنید" />
             </div>
             <div className="col-2 h-100 px-0">
               <button>جستجو</button>
