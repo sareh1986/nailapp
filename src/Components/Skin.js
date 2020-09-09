@@ -3,13 +3,16 @@ import p1 from "../Image/p1.jpg";
 import news1 from "../Image/news1.jpg";
 import news2 from "../Image/news2.jpg";
 import news3 from "../Image/news3.jpg";
+import Logo from "../Image/logo beauty.svg";
 
 export default class Skin extends Component {
   render() {
     return (
       <div className="w-100 d-flex flex-wrap">
-        <div
-          className="col-xl-2 col-lg-2 col-md-3 col-4 bg-sidebar">
+        <div className="col-xl-2 col-lg-2 col-md-3 col-4 bg-sidebar">
+          <div className="w-100 bg-white p-4 curve-box">
+            <img src={Logo} className="d-block mw-100" />
+          </div>
           <p className="text-sidebar">پاکسازی</p>
           <p className="text-sidebar">آبرسانی</p>
           <p className="text-sidebar">لایه برداری</p>
@@ -61,11 +64,11 @@ export default class Skin extends Component {
           </div>
           <div className="d-flex flex-wrap w-100 mt-5">
             <h2 className="col-12 text-pink font-weight-bold my-0 py-3 navbar">
-              خدمات پوستی
+              تخفیف های خدمات پوستی
             </h2>
             <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
               <div className="w-100 bg-white overflow-hidden">
-                <img src={news2} className="d-block mw-100 mx-auto zoom" />
+                <img src={news3} className="d-block mw-100 mx-auto zoom" />
                 <p className="text-gray px-3 py-2 my-0">قلهک</p>
                 <p className="font-weight-bold px-3 py-2 my-0">پاکسازی پوست</p>
                 <p>
@@ -81,7 +84,7 @@ export default class Skin extends Component {
             </div>
             <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
               <div className="w-100 bg-white overflow-hidden">
-                <img src={news2} className="d-block mw-100 mx-auto zoom" />
+                <img src={news1} className="d-block mw-100 mx-auto zoom" />
                 <p className="text-gray px-3 py-2 my-0">تجریش</p>
                 <p className="font-weight-bold px-3 py-2 my-0">آبرسانی پوست</p>
                 <p>
