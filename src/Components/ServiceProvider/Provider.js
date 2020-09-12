@@ -121,53 +121,12 @@ export default class Provider extends Component {
             </tbody>
           </table>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-4 col-8 my-2 mx-auto py-3 bg-pink text-white text-center font-weight-bold">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-8 my-3 mx-auto py-3 bg-pink text-white text-center font-weight-bold">
           درخواست سرویس
         </div>
-        <h2 className="col-12 font-weight-bold text-pink title-nav">نظرات</h2>
-        <div className="col-12 bg-light-gray d-flex flex-wrap">
-          <div className="col-6 my-3 py-2">
-            <div className="w-100 my-3 bg-white pt-3">
-              <p className="my-2 px-3">
-                <span className="px-2 font-weight-bold">هستی بیات </span>|
-                <span className="px-2"> 22 شهریور 99</span> |
-                <span className="px-2 text-gray">ژلیش ناخن</span>
-              </p>
-              <p className="my-2 px-3">
-                از لحاظ کار بسیار حرفه ای و وقت شناس و خوش برخورد بود
-              </p>
-              <div className="py-2 bg-pink text-white text-center">
-                مشاهده تصاویر
-              </div>
-            </div>
-            <div className="w-100 my-3 bg-white pt-3">
-              <p className="my-2 px-3">
-                <span className="px-2 font-weight-bold">هستی بیات </span>|
-                <span className="px-2"> 22 شهریور 99</span> |
-                <span className="px-2 text-gray">ژلیش ناخن</span>
-              </p>
-              <p className="my-2 px-3">
-                از لحاظ کار بسیار حرفه ای و وقت شناس و خوش برخورد بود
-              </p>
-              <div className="py-2 bg-pink text-white text-center">
-                مشاهده تصاویر
-              </div>
-            </div>
-            <div className="w-100 my-3 bg-white pt-3">
-              <p className="my-2 px-3">
-                <span className="px-2 font-weight-bold">هستی بیات </span>|
-                <span className="px-2"> 22 شهریور 99</span> |
-                <span className="px-2 text-gray">ژلیش ناخن</span>
-              </p>
-              <p className="my-2 px-3">
-                از لحاظ کار بسیار حرفه ای و وقت شناس و خوش برخورد بود
-              </p>
-              <div className="py-2 bg-pink text-white text-center">
-                مشاهده تصاویر
-              </div>
-            </div>
-          </div>
-          <div className="col-6 my-3 py-4">
+        <h2 className="col-12 text-pink font-weight-bold mb-0 mt-5 py-3 navbar bg-light-gray">نظرات کاربران</h2>
+        <div className="col-12 bg-pink-light d-flex flex-wrap">
+        <div className="col-9 my-2 py-2 mx-auto">
             <div className="bg-white p-2">
               <div className="box-search my-3">
                 <input
@@ -191,6 +150,48 @@ export default class Provider extends Component {
               </div>
             </div>
           </div>
+          <div className="col-9 py-2 mx-auto">
+            <div className="w-100 my-3 bg-white pt-3">
+              <p className="my-2 px-3">
+                <span className="px-2 font-weight-bold">هستی بیات </span>|
+                <span className="px-2 text-gray"> 22 شهریور 99</span> |
+                <span className="px-2 text-gray">ژلیش ناخن</span>
+              </p>
+              <p className="my-2 px-3">
+                از لحاظ کار بسیار حرفه ای و وقت شناس و خوش برخورد بود
+              </p>
+              <div className="py-2 bg-pink text-white text-center">
+                مشاهده تصاویر
+              </div>
+            </div>
+            <div className="w-100 my-3 bg-white pt-3">
+              <p className="my-2 px-3">
+                <span className="px-2 font-weight-bold">هستی بیات </span>|
+                <span className="px-2 text-gray"> 22 شهریور 99</span> |
+                <span className="px-2 text-gray">لایه برداری</span>
+              </p>
+              <p className="my-2 px-3">
+                از لحاظ کار بسیار حرفه ای و وقت شناس و خوش برخورد بود
+              </p>
+              <div className="py-2 bg-pink text-white text-center">
+                مشاهده تصاویر
+              </div>
+            </div>
+            <div className="w-100 my-3 bg-white pt-3">
+              <p className="my-2 px-3">
+                <span className="px-2 font-weight-bold">هستی بیات </span>|
+                <span className="px-2 text-gray"> 22 شهریور 99</span> |
+                <span className="px-2 text-gray">ژلیش ناخن</span>
+              </p>
+              <p className="my-2 px-3">
+                از لحاظ کار بسیار حرفه ای و وقت شناس و خوش برخورد بود
+              </p>
+              <div className="py-2 bg-pink text-white text-center">
+                مشاهده تصاویر
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     );
