@@ -28,37 +28,42 @@ export default () => {
             <div className="services-title">میکاپ و گریم</div>
           </div>
         </Link>
-        <Link to="/Services/Hair" className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
+        <Link
+          to="/Services/Skin"className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
           <div className="overflow-hidden position-relative effect">
             <img src={img2} className="d-block mw-100 mx-auto" />
             <div className="services-title">مو و هیرکات</div>
           </div>
         </Link>
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
+        <Link
+          to="/Services/Skin"className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
           <div className="overflow-hidden position-relative effect">
             <img src={img3} className="d-block mw-100 mx-auto" />
             <div className="services-title">ماساژ تراپی</div>
           </div>
-        </div>
+        </Link>
 
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
+        <Link
+          to="/Services/Skin"className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
           <div className="overflow-hidden position-relative effect">
             <img src={img4} className="d-block mw-100 mx-auto" />
             <div className="services-title">پوست</div>
           </div>
-        </div>
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
+        </Link>
+        <Link
+          to="/Services/Skin"className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
           <div className="overflow-hidden position-relative effect">
             <img src={img5} className="d-block mw-100 mx-auto" />
             <div className="services-title">ناخن</div>
           </div>
-        </div>
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
+        </Link>
+        <Link
+          to="/Services/Skin"className="col-lg-4 col-xl-4 col-md-6 col-12 my-3">
           <div className="overflow-hidden position-relative effect">
             <img src={img6} className="d-block mw-100 mx-auto" />
             <div className="services-title">ابرو</div>
           </div>
-        </div>
+        </Link>
       </div>
       <div className="w-100 d-flex flex-wrap bg-pink-light">
         <div className="col-12 bg-white p-3 mt-3">

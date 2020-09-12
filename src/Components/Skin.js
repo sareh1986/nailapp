@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, Route, Switch } from "react-router-dom";
 import p1 from "../Image/p1.jpg";
 import news1 from "../Image/news1.jpg";
 import news2 from "../Image/news2.jpg";
@@ -25,7 +26,7 @@ export default class Skin extends Component {
             <h2 className="col-12 text-pink font-weight-bold my-0 py-3 navbar">
               سرویس دهنده های برتر
             </h2>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
+            <Link to="/ServiceProvider/1" className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div className="d-flex flex-wrap p-1 w-100 bg-white">
                 <div className="col-5 p-0">
                   <img src={p1} className="mw-100 d-block mx-auto curve-box" />
@@ -36,8 +37,8 @@ export default class Skin extends Component {
                   <p>مشاهده نمونه کارها</p>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
+            </Link>
+            <Link to="/ServiceProvider/1" className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div className="d-flex flex-wrap p-1 w-100 bg-white">
                 <div className="col-5 p-0">
                   <img src={p1} className="mw-100 d-block mx-auto curve-box" />
@@ -48,8 +49,8 @@ export default class Skin extends Component {
                   <p>مشاهده نمونه کارها</p>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
+            </Link>
+            <Link to="/ServiceProvider/1" className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div className="d-flex flex-wrap p-1 w-100 bg-white">
                 <div className="col-5 p-0">
                   <img src={p1} className="mw-100 d-block mx-auto curve-box" />
@@ -60,7 +61,7 @@ export default class Skin extends Component {
                   <p>مشاهده نمونه کارها</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="d-flex flex-wrap w-100 mt-5">
             <h2 className="col-12 text-pink font-weight-bold my-0 py-3 navbar">
@@ -119,7 +120,7 @@ export default class Skin extends Component {
             <h2 className="col-12 text-pink font-weight-bold my-0 py-3 navbar bg-light-gray">
               خدمات پوستی
             </h2>
-            <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
+            <Link to="/ServiceProvider/1" className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
               <div className="w-100 bg-white overflow-hidden">
                 <img src={news2} className="d-block mw-100 mx-auto zoom" />
                 <p className="text-gray px-3 py-2 my-0">قلهک</p>
@@ -127,7 +128,7 @@ export default class Skin extends Component {
                 <p className="text-gray px-3 py-2 my-0">مهشاد شکیبا</p>
                 <p className="px-3 text-pink font-weight-bold">1000000تومان</p>
               </div>
-            </div>
+            </Link>
             <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
               <div className="w-100 bg-white overflow-hidden">
                 <img src={news2} className="d-block mw-100 mx-auto zoom" />
