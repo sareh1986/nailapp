@@ -4,9 +4,11 @@ import LayoutMain from "../Components/Layout/LayoutMain.js";
 
 import Home2 from "../Components/Home2.js";
 import Home from "../Components/Home.js";
+import Join from "../Components/Join.js";
+import Login from "../Components/Login.js";
 import Skin from "../Components/Skin";
 import Hair from "../Components/Hair.js";
-import ServiceProvider from "../Components/ServiceProvider/Provider.js"; 
+import ServiceProvider from "../Components/ServiceProvider/Provider.js";
 import moreInfo1 from "../Components/moreInfo1";
 import moreInfo2 from "../Components/moreInfo2";
 import moreInfo3 from "../Components/moreInfo3";
@@ -15,6 +17,8 @@ export default () => {
   return (
     <Router>
       <Switch>
+        <Route path="/Join" component={Join} />
+        <Route path="/Login" component={Login} />
         <LayoutMain>
           <Switch>
             <Route exact path="/" component={Home} />

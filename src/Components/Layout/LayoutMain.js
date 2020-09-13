@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, Route, Switch } from "react-router-dom";
 import "../../CSS/bootstrap.min.css";
 import Logo from "../../Image/logo beauty.svg";
 // export default ({children}) => {
@@ -16,7 +17,9 @@ export default ({ children }) => {
   return (
     <div className="w-100">
       <header className="w-100 d-flex flex-wrap py-1">
-        <div className="col-xl-2 col-lg-2 order-0 col-6 d-flex align-items-center">ثبت نام | ورود</div>
+        <div className="col-xl-2 col-lg-2 order-0 col-6 d-flex align-items-center">
+          <Link to="/Join" className="pl-2">ثبت نام </Link>| <Link to="/Login" className="pr-2">ورود</Link>
+        </div>
         <div className="col-xl-8 col-lg-8 col-12 order-xl-1 order-lg-1 order-2 d-flex align-items-center">
           <div className="col-12 box-search mx-auto d-flex flex-wrap px-0">
             <div className="col-3 h-100 city-box px-0">
