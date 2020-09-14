@@ -70,6 +70,9 @@ input[type=button]:focus{background-color: #f9abbb !important;}
   border-radius: 100%;
 }
 
+.calendar-head p{width: 14.28%;margin: 0; padding: 10px 0; text-align: center;}
+.calendar-body p{width: 14.28%;margin: 10px 0; padding: 10px 0; text-align: center; border: 1px solid #DDD;}
+
 .text-gray{
   color: #929292;
 }
@@ -191,4 +194,6 @@ table tbody tr:nth-child(even) {
   color: #61dafb;
 }
 
-
+.border-pink{
+  border:1px solid #ff3f68;
+}

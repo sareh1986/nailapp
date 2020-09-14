@@ -8,6 +8,7 @@ import Join from "../Components/Join.js";
 import Login from "../Components/Login.js";
 import Skin from "../Components/Skin";
 import Hair from "../Components/Hair.js";
+import Calendar from "../Components/Admin/Calendar.js";
 import ServiceProvider from "../Components/ServiceProvider/Provider.js";
 import moreInfo1 from "../Components/moreInfo1";
 import moreInfo2 from "../Components/moreInfo2";
@@ -19,12 +20,14 @@ export default () => {
       <Switch>
         <Route path="/Join" component={Join} />
         <Route path="/Login" component={Login} />
+        
         <LayoutMain>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Services/Skin" component={Skin} />
             <Route path="/Services/Hair" exact component={Hair} />
             <Route path="/ServiceProvider/1" component={ServiceProvider} />
+            <Route path="/Calendar" component={Calendar} />
           </Switch>
         </LayoutMain>
 
