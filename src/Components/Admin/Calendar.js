@@ -60,25 +60,44 @@ export default class Calendar extends Component {
               برنامه روزانه - 24 شهریور
             </h2>
             <div className="w-100 d-flex flex-wrap bg-pink">
-            <div className="col-4 border border-white py-2 text-center text-white">قرار کاری</div>
-            <div className="col-4 border border-white py-2 text-center text-white">درخواست قرار کاری</div>
-            <div className="col-4 border border-white py-2 text-center text-white">همه قرار ها</div>
+              <div className="col-4 border border-white py-2 text-center text-white">
+                قرار کاری
+              </div>
+              <div className="col-4 border border-white py-2 text-center text-white">
+                درخواست قرار کاری
+              </div>
+              <div className="col-4 border border-white py-2 text-center text-white">
+                همه قرار ها
+              </div>
             </div>
             <div className="w-100 d-flex flex-wrap py-3">
-              <div className="col-3 border font-weight-bold py-2">8 تا 10</div>
+              <div className="col-3 border font-weight-bold py-2 bg-light-gray">ساعت</div>
+              <div className="col-7 border font-weight-bold py-2 bg-light-gray">نوع درخواست</div>
+              <div className="col-2 border font-weight-bold py-2 text-center bg-light-gray">وضعیت</div>
+              <div className="col-3 border py-2">8 تا 10</div>
               <div className="col-7 border py-2">رنگ ریشه و لایت مو</div>
               <div className="col-2 border py-2 text-center">تایید شده</div>
-              <div className="col-3 border font-weight-bold py-2 bg-pink-light">12 تا 15</div>
-              <div className="col-7 border py-2 bg-pink-light">مش، هایلایت، لولایت</div>
-              <div className="col-2 border py-2 text-center bg-pink-light">منتظر تایید</div>
-              <div className="col-3 border font-weight-bold py-2">18 تا 20</div>
+              <div className="col-3 border py-2 bg-pink-light">
+                12 تا 15
+              </div>
+              <div className="col-7 border py-2 bg-pink-light">
+                مش، هایلایت، لولایت
+              </div>
+              <div className="col-2 border py-2 text-center bg-pink-light">
+                منتظر تایید
+              </div>
+              <div className="col-3 border py-2">18 تا 20</div>
               <div className="col-7 border py-2">مش </div>
               <div className="col-2 border py-2 text-center">تایید شده</div>
-              <div className="col-3 border font-weight-bold py-2 bg-pink-light">
+              <div className="col-3 border py-2 bg-pink-light">
                 20:30 تا 22:30
               </div>
-              <div className="col-7 border py-2 bg-pink-light">مش، هایلایت، لولایت</div>
-              <div className="col-2 border py-2 text-center bg-pink-light">منتظر تایید</div>
+              <div className="col-7 border py-2 bg-pink-light">
+                مش، هایلایت، لولایت
+              </div>
+              <div className="col-2 border py-2 text-center bg-pink-light">
+                منتظر تایید
+              </div>
             </div>
           </div>
         </div>
