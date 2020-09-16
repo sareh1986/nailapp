@@ -6,6 +6,8 @@ import Home2 from "../Components/Home2.js";
 import Home from "../Components/Home.js";
 import Join from "../Components/Join.js";
 import Login from "../Components/Login.js";
+import ComingSoon from "../Components/ComingSoon.js";
+import Careers from "../Components/Careers.js";
 import Skin from "../Components/Skin";
 import Hair from "../Components/Hair.js";
 import Calendar from "../Components/Admin/Calendar.js";
@@ -20,6 +22,8 @@ export default () => {
       <Switch>
         <Route path="/Join" component={Join} />
         <Route path="/Login" component={Login} />
+        <Route path="/Careers" component={Careers} />
+        <Route path="/ComingSoon" component={ComingSoon} />
         
         <LayoutMain>
           <Switch>

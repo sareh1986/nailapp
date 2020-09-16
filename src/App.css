@@ -14,6 +14,7 @@ a{color:#111;}
 a:hover{text-decoration: none; color:#111;}
 
 input,button,select,text {width: 100%;border: none;height: 100%; padding: 5px;}
+input[type=checkbox]{width: auto}
 button{background-color: #ff3f68;text-align: center;color: #FFF;}
 input:focus {outline: none;background-color:#f5f5f5 }
 button:focus {outline: none;}
@@ -196,4 +197,11 @@ table tbody tr:nth-child(even) {
 
 .border-pink{
   border:1px solid #ff3f68;
+}
+.border-gray{
+  border:1px solid #ff3f68;
+}
+
+.border-pink-light{
+  border:1px solid #fddbe3;
 }
