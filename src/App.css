@@ -5,10 +5,12 @@
   font-family:'yekan';
   padding: 0;
   margin: 0;
-  direction: rtl;
   box-sizing: border-box;
   text-align: justify;
 }  
+body{
+  direction: rtl;
+}
 p , span , a {line-height:30px;}
 a{color:#111;}
 a:hover{text-decoration: none; color:#111;}
@@ -130,11 +132,16 @@ transition: all .8s;
   overflow: hidden;
 }
 
-/* .bg-login{
-  background-image: url('Image/bg.jpg');background-size: cover;
+
+.slick-dots{
+  bottom: 10px !important;
+}
+.slick-dots li button:before{
+  font-size:30px !important;
+}
+/* .slick-dots li.slick-active button:before{
+  color:#DDD !important;
 } */
-
-
 
 .bg-pink{
   background-color:  #ff3f68;

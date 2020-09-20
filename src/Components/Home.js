@@ -17,7 +17,7 @@ export default () => {
   return (
     // style={{ height: "100vh" }}
     <div className="d-flex flex-wrap">
-      <div className="w-100" style={{ height: "300px" }}>
+      <div className="w-100" style={{ height: "300px", direction:"ltr" }}>
         <SlideShow/>
       </div>
       <div className="w-100 d-flex flex-wrap bg-pink-light">

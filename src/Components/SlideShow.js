@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import s1 from "../Image/slide2.jpg";
+import s2 from "../Image/slide3.jpg";
 
 
 export default class SlideShow extends Component {
@@ -9,27 +11,22 @@ export default class SlideShow extends Component {
       //className: "sample",
       autoplay: true,
       //rtl: true,
-      speed: 500
+      speed: 500,
+      arrows: false,
     };
     return (
       <Slider {...settings}>
         <div>
-          <h3 style={{width:'200px', backgroundColor:'red', height:'300px'}}>slide num 1 *****</h3>
+          <img src={s1}/>
         </div>
         <div>
-          <h3 style={{width:'200px', backgroundColor:'blue', height:'300px'}}>slide num 2 *****</h3>
+          <img src={s2}/>
         </div>
         <div>
-          <h3 style={{width:'200px', backgroundColor:'black', height:'300px'}}>slide num 3 *****</h3>
+          <img src={s1}/>
         </div>
         <div>
-          <h3 style={{width:'200px', backgroundColor:'white', height:'300px'}}>slide num 4 *****</h3>
-        </div>
-        <div>
-          <h3 style={{width:'200px', backgroundColor:'green', height:'300px'}}>slide num 5 *****</h3>
-        </div>
-        <div>
-          <h3 style={{width:'200px', backgroundColor:'yellow', height:'300px'}}>slide num 6 *****</h3>
+          <img src={s2}/>
         </div>
       </Slider>
     );
