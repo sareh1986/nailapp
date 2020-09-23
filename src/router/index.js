@@ -11,6 +11,8 @@ import Careers from "../Components/Careers.js";
 import Skin from "../Components/Skin";
 import Hair from "../Components/Hair.js";
 import Calendar from "../Components/Admin/Calendar.js";
+import News from "../Components/News.js";
+import Details from "../Components/Details.js";
 import ServiceProvider from "../Components/ServiceProvider/Provider.js";
 import moreInfo1 from "../Components/moreInfo1";
 import moreInfo2 from "../Components/moreInfo2";
@@ -33,7 +35,13 @@ export default () => {
             <Route path="/ServiceProvider/1" component={ServiceProvider} />
             <Route path="/Calendar" component={Calendar} />
           </Switch>
+          <Switch>
+            <Route exact path="/News" component={News} />
+            <Route exact path="/News/1" component={Details} />
+          </Switch>
         </LayoutMain>
+
+      
 
         {/* <Route exact path="/Services/:path?">
           <LayoutMain>

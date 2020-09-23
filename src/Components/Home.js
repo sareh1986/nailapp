@@ -71,7 +71,7 @@ export default () => {
             آخرین اخبار زیبایی
           </h2>
         </div>
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
+        <Link to="/News/1" className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
           <div className="w-100 bg-white overflow-hidden">
             <img src={news1} className="d-block mw-100 mx-auto zoom" />
             <p className="text-gray px-3 py-2 my-0">سلامت پوست</p>
@@ -80,8 +80,8 @@ export default () => {
             </p>
             <p className="text-gray px-3 py-2 my-0 text-left">16 شهریور 99</p>
           </div>
-        </div>
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
+        </Link>
+        <Link to="/News/1" className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
           <div className="w-100 bg-white overflow-hidden">
             <img src={news2} className="d-block mw-100 mx-auto zoom" />
             <p className="text-gray px-3 py-2 my-0">سلامت پوست</p>
@@ -90,8 +90,8 @@ export default () => {
             </p>
             <p className="text-gray px-3 py-2 my-0 text-left">16 شهریور 99</p>
           </div>
-        </div>
-        <div className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
+        </Link>
+        <Link to="/News/1" className="col-lg-4 col-xl-4 col-md-6 col-12 mb-4">
           <div className="w-100 bg-white overflow-hidden">
             <img src={news3} className="d-block mw-100 mx-auto zoom" />
             <p className="text-gray px-3 py-2 my-0">سلامت پوست</p>
@@ -100,7 +100,7 @@ export default () => {
             </p>
             <p className="text-gray px-3 py-2 my-0 text-left">16 شهریور 99</p>
           </div>
-        </div>
+        </Link>
       </div>
       <div className="w-100 d-flex flex-wrap py-3">
         <h3 className="col-12 font-weight-bold text-center">

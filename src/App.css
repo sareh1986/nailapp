@@ -98,6 +98,8 @@ background: linear-gradient(180deg, rgba(255,63,104,1) 0%, rgba(255,63,104,1) 40
     border: 1px solid #fddbe3;
 }
 
+.font-size-large{font-size: 1.5rem}
+
 .text-sidebar{
   color: #FFF;
   border-bottom: 2px solid rgba(255, 255, 255, 0.09);
