@@ -9,10 +9,8 @@ export default class Details extends Component {
         style={{ minHeight: "100vh" }}
       >
         <div className="col-xl-2 col-lg-2 col-md-3 col-4 border bg-white">
-          <h3 class="col-12 font-weight-bold text-center py-2">
-            <span class="px-4 title text-pink font-size-large py-2">
-              اخبار مرتبط
-            </span>
+          <h3 class="col-12 font-weight-bold text-center py-4 text-pink font-size-large title">
+            اخبار مرتبط
           </h3>
           <p className="col-12 border-bottom py-2">
             مرکبات با پوست و موی شما چه می کنند!
@@ -24,9 +22,8 @@ export default class Details extends Component {
             مواد سالاد پوست شما را دوست دارد
           </p>
           <p className="col-12 border-bottom py-2">
-          همه چیز درباره ماساژ سوئدی
+            همه چیز درباره ماساژ سوئدی
           </p>
-         
         </div>
         <div className="col-9 mx-auto bg-white border">
           <h1 className="text-pink-light px-2 font-size-large font-weight-bold my-4">
